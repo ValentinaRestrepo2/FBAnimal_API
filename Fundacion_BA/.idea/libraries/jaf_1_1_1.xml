@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jaf-1_1_1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/JAF/jaf-1_1_1.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
