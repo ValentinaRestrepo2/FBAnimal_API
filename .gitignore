@@ -1,5 +1,6 @@
 # Archivos y directorios específicos de JSP
 /web/target/
+
 # Archivos y directorios específicos de IDE
 .idea/
 *.iml
@@ -7,3 +8,6 @@
 *.ipr
 /out/
 /target/
+
+# Archivos y directorios específicos de Docker
+/.dockerignore
