@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - ./web:/usr/local/tomcat/webapps
+      - ./volumes/db:/usr/local/tomcat/webapps
     ports:
       - 8080:8080
   db:
@@ -16,7 +16,7 @@ services:
       - MYSQL_DATABASE=fundacionba2
     restart: always
     volumes:
-      - db-data:/var/lib/mysql
+      - ./volumes/db:/data/db
 
 volumes:
   db-data:
